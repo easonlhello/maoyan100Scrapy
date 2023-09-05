@@ -1,6 +1,6 @@
 # maoyan100Scrapy
 
-
+如果出现 https://tfz.maoyan.com，说明Ip被临时限制，需访问检验后才可以再次运行
 
 RUN   scrapy crawl mao
 
