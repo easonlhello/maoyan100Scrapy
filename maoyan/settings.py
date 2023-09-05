@@ -76,10 +76,10 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    # EXcel Out
-#    "maoyan.pipelines.MaoyanPipeline": 300,
+    # EXcel 
+ "maoyan.pipelines.MaoyanPipeline": 300,
     #DB
-    "maoyan.pipelines.DBMaoyanPipeline": 200,
+   #    "maoyan.pipelines.DBMaoyanPipeline": 200,
 
 
 
